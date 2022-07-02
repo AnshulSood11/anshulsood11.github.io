@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Anshul Sood | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Experimenter, with a passion for Tech`,
+    description: `Software Developer from India.`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/anshulsood11/`,
     // Content of the About Me section
-    about: `I am a Software Engineer with over a year of experience, currently working at Walmart. I love building innovative and impactful products with a primary focus on writing clean, efficient, scalable code. Though primarily interested in Backend development and architecture, I love exploring other fields and have done projects across Full-stack development, Deep Learning and Robotics.\nGet in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
+    about: `I'm a Software Engineer with over a year of experience, currently working at Walmart. I love building innovative and impactful products with a primary focus on writing clean, efficient, scalable code. Though primarily interested in Backend development and architecture, I love exploring other fields and have done projects across Full-stack development, Deep Learning and Robotics.\nGet in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
     education: [
       {
         name: 'B.E. Computer Science, Birla Institute of Technology and Science, Pilani',
@@ -110,6 +110,20 @@ module.exports = {
           'Kafka, gRPC, GraphQL, Docker, Git, Bash, AWS, Microservices, Deep Learning, Data Mining',
       },
     ],
+    recognition: [
+      {
+        name: 'Bravo Award for Engineering Excellence',
+        info: 'Walmart Global Tech, Nov 2021',
+        description: '',
+        link:''
+      },
+      {
+        name: 'Project selected for national level INSPIRE Award Exhibition',
+        info: 'Department of Science and Technology India, Dec 2011',
+        description: '',
+        link:''
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
