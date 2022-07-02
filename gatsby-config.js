@@ -1,75 +1,113 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://anshulsood11.github.io/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Anshul Sood',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Anshul Sood | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Experimenter, with a passion for Tech`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/anshulsood11`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/anshulsood11/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    about: `I am a Software Engineer with over a year of experience, currently working at Walmart. I love building innovative and impactful products with a primary focus on writing clean, efficient, scalable code. Though primarily interested in Backend development and architecture, I love exploring other fields and have done projects across Full-stack development, Deep Learning and Robotics.\nGet in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
+    education: [
       {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+        name: 'B.E. Computer Science, Birla Institute of Technology and Science, Pilani',
+        info: '2017 - 2021',
+        description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 Organizing Committee',
+        link:''
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Software Engineer 2, Walmart Global Tech',
+        info: 'July 2021 - Present',
+        description: '‣ Building core capabilities to facilitate international trade on the Walmart eCommerce platform.\n'+
+        '‣ Have worked in domains like Cataloging, Logistics, Seller Onboarding etc., primarily contributing in backend development.\n'+
+        '‣ Tech Stack: Java, Spring Framework, Kafka, Azure, GraphQL',
+        link:''
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Intern, CDAC',
+        info: 'Aug 2020 - Dec 2020',
+        description: '‣ Worked on providing Number Plate Recognition as a service.\n'+
+        '‣ Built a distributed pipeline for serving Deep Learning models to several video streams in parallel.\n'+
+        '‣ Solved the challenges of Object Tracking, Stateful Processing and Distributed Transactions.\n'+
+        '‣ Technologies: Kafka, gRPC, Redis, Docker, MySQL',
+        link:''
+      }, 
+      {
+        name: 'Summer Intern, Walmart Global Tech',
+        info: 'May 2020 - Jul 2020',
+        description: '‣ Created a mechanism to report which Advertising campaigns must be paused or resumed, depending on the item availability in inventory.\n'+
+        '‣ Technologies: SpringBoot, Spring JPA, Hibernate, Thymeleaf, MySQL',
+        link:''
+      }, 
+      {
+        name: 'Summer Intern, Maruti Suzuki India Limited ',
+        info: 'May 2019 - Jul 2019',
+        description: '‣ Developed a solution for detecting if a worker is wearing safety gear while working at the workshop, using CCTV cameras.\n'+
+        '‣ Used YOLO for object detection and Deep SORT for person tracking.\n'+
+        '‣ Technologies: Python, TensorFlow, Tkinter\n'+
+        'Code: https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT',
+        link: ''
+      }
+    ],
+    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    projects: [
+      {
+        name: 'MyDreamsTravel',
+        description:
+          'A feature-rich travel blogging site built with ReactJS and Django deployed on AWS Beanstalk.',
+        link: 'https://mydreamstravel.anshulsood.net',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Memory Subsystem',
+        description:
+          'Implemented a basic memory subsystem in C as a part of Data Storage Technologies course. It consisted of a TLB, 2 level caching and a Main Memory with Paging.',
+        link: 'https://github.com/shubh-shah/DSTN_Mem_Subsystem',
       },
+      {
+        name: 'Twitter Analytics for Demand Forecasting',
+        description:
+          'Tweets are fetched from the Twitter API and their sentiment is analyzed to predict the relative demand for products at a chosen locality. This info can help a retailer stock its inventory accordingly.',
+        link: 'https://github.com/AnshulSood11/Twitter-Demand-Forecasting',
+      },
+      {
+        name: 'Engagement Intensity Prediction',
+        description:
+          'Performs real-time engagement intensity prediction using gaze and pose estimation. The feed is segmented into 10-second video clips, from which facial features are extracted, and then a neural network determines the level of engagement at the given instant.',
+        link: 'https://github.com/AnshulSood11/Engagement-Level-Prediction',
+      },
+      {
+        name: 'Position Tracker',
+        description:
+          'Developed a localization system for an autonomous developed by the college Robotics Club. It polls data from an Optical Displacement Sensor, Gyroscope, Accelerometer, Magnetometer, and fuses them using Kalman filtering. Used Raspberry Pi as the onboard computer.',
+        link: 'https://github.com/AnshulSood11/Position-Tracker'
+      }
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Java, Spring, Python, Django, JavaScript, React.js, C',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MySQL, MS SQL, Redis, PostgreSQL',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Kafka, gRPC, GraphQL, Docker, Git, Bash, AWS, Microservices, Deep Learning, Data Mining',
       },
     ],
   },
