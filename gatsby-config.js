@@ -15,12 +15,12 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/anshulsood11/`,
     // Content of the About Me section
-    about: `I'm a Software Engineer with over a year of experience, currently working at Walmart. I love building innovative and impactful products with a primary focus on writing clean, efficient, scalable code. Though primarily interested in Backend development and architecture, I love exploring other fields and have done projects across Full-stack development, Deep Learning and Robotics.\nGet in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
+    about: `I'm a Software Engineer with over a year of experience, currently working at Walmart. I love building innovative and impactful products with a primary focus on writing clean, efficient, scalable code. Though primarily interested in Backend development, I love exploring other fields and have done projects across Full-stack development, Deep Learning and Robotics.\nGet in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
     education: [
       {
         name: 'B.E. Computer Science, Birla Institute of Technology and Science, Pilani',
         info: '2017 - 2021',
-        description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 Organizing Committee',
+        description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 (Sports Fest) Organizing Committee',
         link:''
       }
     ],
@@ -40,14 +40,14 @@ module.exports = {
         description: '‣ Worked on providing Number Plate Recognition as a service.\n'+
         '‣ Built a distributed pipeline for serving Deep Learning models to several video streams in parallel.\n'+
         '‣ Solved the challenges of Object Tracking, Stateful Processing and Distributed Transactions.\n'+
-        '‣ Technologies: Kafka, gRPC, Redis, Docker, MySQL',
+        '‣ Technologies: Python, Java, Kafka, gRPC, Redis, Docker, MySQL',
         link:''
       }, 
       {
         name: 'Summer Intern, Walmart Global Tech',
         info: 'May 2020 - Jul 2020',
         description: '‣ Created a mechanism to report which Advertising campaigns must be paused or resumed, depending on the item availability in inventory.\n'+
-        '‣ Technologies: SpringBoot, Spring JPA, Hibernate, Thymeleaf, MySQL',
+        '‣ Technologies: Java, SpringBoot, Hibernate, Thymeleaf, MySQL',
         link:''
       }, 
       {
@@ -65,7 +65,7 @@ module.exports = {
       {
         name: 'MyDreamsTravel',
         description:
-          'A feature-rich travel blogging site built with ReactJS and Django deployed on AWS Beanstalk.',
+          'A feature-rich travel blogging site built with ReactJS and Django deployed using AWS Services.',
         link: 'https://mydreamstravel.anshulsood.net',
       },
       {
@@ -89,7 +89,7 @@ module.exports = {
       {
         name: 'Position Tracker',
         description:
-          'Developed a localization system for an autonomous developed by the college Robotics Club. It polls data from an Optical Displacement Sensor, Gyroscope, Accelerometer, Magnetometer, and fuses them using Kalman filtering. Used Raspberry Pi as the onboard computer.',
+          'Developed a localization system for an autonomous bot developed by the college Robotics Club. It polls data from an Optical Displacement Sensor, Gyroscope, Accelerometer, Magnetometer, and fuses them using Kalman filtering. Used Raspberry Pi as the onboard computer.',
         link: 'https://github.com/AnshulSood11/Position-Tracker'
       }
     ],

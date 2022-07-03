@@ -3,7 +3,6 @@ import React from 'react';
 import Section from '../section';
 
 const SectionAbout = ({ about }) => {
-  console.log(about.split('\n'))
   return (
     <Section title="About Me">
       <div className="mb-6">
