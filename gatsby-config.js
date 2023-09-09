@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Anshul Sood | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software Developer from India.`,
+    description: `Software Engineer at Walmart`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Github account URL
@@ -15,10 +15,20 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/anshulsood11/`,
     // Content of the About Me section
-    about: `I'm a Software Engineer with over a year of experience, currently working at Walmart. I love building innovative and impactful products with a primary focus on writing clean, efficient, scalable code. Though primarily interested in Backend development, I love exploring other fields and have done projects across Full-stack development, Deep Learning and Robotics.\nGet in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
+    about: `I'm a Software Engineer with over 2 years of experience, currently working in eCommerce domain at Walmart.
+    
+    My core skills are:
+    ‣ Building highly scalable microservices using Java, SpringBoot, Kafka, GraphQL and gRPC.
+    ‣ Writing Spark jobs for large scale data processing.
+    ‣ Full-stack Development with ReactJS, SpringBoot/Django with backend on Cloud(AWS) or Serverless(Firebase).
+    ‣ Building Deep Learning applications and deploying Machine Learning models at scale.
+    ‣ Building reliable and resilient services with Monitoring, Alerting and Disaster Recovery processes in place.
+
+    Though primarily interested in Backend development, I love to explore and have done projects across Full-stack development, Deep Learning and Robotics.
+    Get in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
     education: [
       {
-        name: 'B.E. Computer Science, Birla Institute of Technology and Science, Pilani',
+        name: 'B.E. Computer Science, Birla Institute of Technology and Science',
         info: '2017 - 2021',
         description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 (Sports Fest) Organizing Committee',
         link:''
@@ -27,19 +37,25 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Software Engineer 3, Walmart Global Tech',
+        info: 'August 2023 - Present',
+        description: '‣ Helping sellers fulfil their Delivery Promise with SWW (Ship With Walmart), which provides domestic and international shipping services.\n'+
+        'Tech Stack: Java, SpringBoot, Kafka, Azure',
+        link:''
+      },
+      {
         name: 'Software Engineer 2, Walmart Global Tech',
-        info: 'July 2021 - Present',
-        description: '‣ Building core capabilities to facilitate international trade on the Walmart eCommerce platform.\n'+
-        '‣ Have worked in domains like Cataloging, Logistics, Seller Onboarding etc., primarily contributing in backend development.\n'+
-        '‣ Tech Stack: Java, Spring Framework, Kafka, Azure, GraphQL',
+        info: 'July 2021 - July 2023',
+        description: '‣ Enabled sellers to expand their business across geographies with Incremental Onboarding and Catalog Porting.\n'+
+        'Tech Stack: Java, SpringBoot, Spark, GraphQL, Azure',
         link:''
       },
       {
         name: 'Intern, CDAC',
         info: 'Aug 2020 - Dec 2020',
-        description: '‣ Worked on providing Number Plate Recognition as a service.\n'+
-        '‣ Built a distributed pipeline for serving Deep Learning models to several video streams in parallel.\n'+
-        '‣ Solved the challenges of Object Tracking, Stateful Processing and Distributed Transactions.\n'+
+        description: '• Created a distributed pipeline for serving Deep Learning models to provide Number Plate Recognition at scale.\n'+
+        '‣ Followed microservices pattern to make each model independently scalable and handle multiple video streams in parallel.\n'+
+        '‣ Solved the challenges of Ordered Processing, Stateful Processing and Transactions in a distributed application.\n'+
         '‣ Technologies: Python, Java, Kafka, gRPC, Redis, Docker, MySQL',
         link:''
       }, 
@@ -47,6 +63,7 @@ module.exports = {
         name: 'Summer Intern, Walmart Global Tech',
         info: 'May 2020 - Jul 2020',
         description: '‣ Created a mechanism to report which Advertising campaigns must be paused or resumed, depending on the item availability in inventory.\n'+
+        '‣ Optimized performance using parallelization and batching while ensuring the API rate limit is not breached.\n'+
         '‣ Technologies: Java, SpringBoot, Hibernate, Thymeleaf, MySQL',
         link:''
       }, 
@@ -54,9 +71,9 @@ module.exports = {
         name: 'Summer Intern, Maruti Suzuki India Limited ',
         info: 'May 2019 - Jul 2019',
         description: '‣ Developed a solution for detecting if a worker is wearing safety gear while working at the workshop, using CCTV cameras.\n'+
-        '‣ Used YOLO for object detection and Deep SORT for person tracking.\n'+
+        '‣ Used YOLO for object detection and Deep SORT for person tracking and developed a dashboard using Tkinter to display real-time feed and show alerts.\n'+
         '‣ Technologies: Python, TensorFlow, Tkinter\n'+
-        'Code: https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT',
+        'Code open-sourced here: https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT',
         link: ''
       }
     ],
@@ -65,7 +82,7 @@ module.exports = {
       {
         name: 'MyDreamsTravel',
         description:
-          'A feature-rich travel blogging site built with ReactJS and Django deployed using AWS Services.',
+          'A feature-rich travel blogging site with Authentication, Rich text editor, Image upload support etc. features. Built with ReactJS and deployed on AWS. (Backend currently unavailable due to expiry of free-tier)',
         link: 'https://mydreamstravel.anshulsood.net',
       },
       {
@@ -98,19 +115,25 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Java, Spring, Python, Django, JavaScript, React.js, C',
+          'Java, SpringBoot, Python, Django, JavaScript, React.js, C, Go',
       },
       {
         name: 'Databases',
-        description: 'MySQL, MS SQL, Redis, PostgreSQL',
+        description: 'Azure SQL, MySQL, PostgreSQL, Google Firestore, Redis',
       },
       {
         name: 'Other',
         description:
-          'Kafka, gRPC, GraphQL, Docker, Git, Bash, AWS, Microservices, Deep Learning, Data Mining',
+          'Kafka, GraphQL, SQL, gRPC, Spark, Docker, Git, Bash, AWS, Firebase, Deep Learning, Data Mining',
       },
     ],
     recognition: [
+      {
+        name: 'Bravo Award for Impact',
+        info: 'Walmart Global Tech, July 2022',
+        description: '',
+        link:''
+      },
       {
         name: 'Bravo Award for Engineering Excellence',
         info: 'Walmart Global Tech, Nov 2021',
