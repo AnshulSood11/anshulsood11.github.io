@@ -28,12 +28,12 @@ const Index = ({ data }) => {
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
-      {education && education.length && (
-        <SectionEducation education={education} />
-      )}
       {!noBlog && <SectionBlog posts={posts} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
+      )}
+      {education && education.length && (
+        <SectionEducation education={education} />
       )}
       {projects && projects.length && <SectionProjects projects={projects} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
