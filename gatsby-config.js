@@ -26,14 +26,6 @@ module.exports = {
 
     Though primarily interested in Backend systems, I love exploring tech and have done projects across Full-stack development, Deep Learning and Robotics.
     Get in touch at anshulsoodnet@gmail.com if you want to collaborate on a project or have an exciting opportunity for me.`,
-    education: [
-      {
-        name: 'B.E. Computer Science, Birla Institute of Technology and Science',
-        info: '2017 - 2021',
-        description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 (Sports Fest) Organizing Committee',
-        link:''
-      }
-    ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
@@ -77,6 +69,14 @@ module.exports = {
         description: '‣ Created a mechanism to report which Advertising campaigns must be paused or resumed, depending on the item availability in inventory.\n'+
         '‣ Optimized performance using parallelization and batching while ensuring the API rate limit is not breached.\n'+
         '‣ Technologies: Java, SpringBoot, Hibernate, Thymeleaf, MySQL',
+        link:''
+      }
+    ],
+    education: [
+      {
+        name: 'B.E. Computer Science, Birla Institute of Technology and Science',
+        info: '2017 - 2021',
+        description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 (Sports Fest) Organizing Committee',
         link:''
       }
     ],
