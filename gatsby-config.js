@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Anshul Sood | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software Engineer at Walmart`,
+    description: `Backend Systems and Web Services Expert`,
     // Optional: Twitter account handle
     // author: `@anshulsood11`,
     // Optional: Github account URL
@@ -78,15 +78,6 @@ module.exports = {
         '‣ Optimized performance using parallelization and batching while ensuring the API rate limit is not breached.\n'+
         '‣ Technologies: Java, SpringBoot, Hibernate, Thymeleaf, MySQL',
         link:''
-      }, 
-      {
-        name: 'Summer Intern, Maruti Suzuki India Limited ',
-        info: 'May 2019 - Jul 2019',
-        description: '‣ Developed a solution for detecting if a worker is wearing safety gear while working at the workshop, using CCTV cameras.\n'+
-        '‣ Used YOLO for object detection and Deep SORT for person tracking and developed a dashboard using Tkinter to display real-time feed and show alerts.\n'+
-        '‣ Technologies: Python, TensorFlow, Tkinter\n'+
-        'Code open-sourced here: https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT',
-        link: ''
       }
     ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -120,6 +111,12 @@ module.exports = {
         description:
           'Performs real-time engagement intensity prediction using gaze and pose estimation. The feed is segmented into 10-second video clips, from which facial features are extracted, and then a neural network determines the level of engagement at the given instant.',
         link: 'https://github.com/AnshulSood11/Engagement-Level-Prediction',
+      },
+      {
+        name: 'PPE Detection using Computer Vision',
+        description:
+          'A solution for detecting if a worker is wearing safety gear while working at the workshop, using CCTV cameras. Uses YOLO for object detection and Deep SORT for person tracking. Has a dashboard built with Tkinter to display real-time feed and show alerts.',
+        link: 'https://github.com/AnshulSood11/PPE-Detection-YOLO-Deep_SORT',
       },
       {
         name: 'Position Tracker',
