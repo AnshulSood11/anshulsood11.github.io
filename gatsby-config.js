@@ -9,13 +9,13 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Software Engineer at Walmart`,
     // Optional: Twitter account handle
-    // author: `@rfitzio`,
+    // author: `@anshulsood11`,
     // Optional: Github account URL
     github: `https://github.com/anshulsood11`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/anshulsood11/`,
     // Content of the About Me section
-    about: `I'm a Software Engineer with over 2 years of experience, currently working in eCommerce domain at Walmart.
+    about: `I'm a Software engineer at Nutanix, building cool distributed services for Nutanix AHV (Hypervisor) Management. Previously, I worked at Walmart for 2.5 years in eCommerce and logistics domain. I graduated from BITS Goa in 2021 with a BE in Computer Science.
     
     My core skills are:
     ‣ Building highly scalable microservices using Java, SpringBoot, Kafka, GraphQL and gRPC.
@@ -24,8 +24,8 @@ module.exports = {
     ‣ Building Deep Learning applications and deploying Machine Learning models at scale.
     ‣ Building reliable and resilient services with Monitoring, Alerting and Disaster Recovery processes in place.
 
-    Though primarily interested in Backend development, I love to explore and have done projects across Full-stack development, Deep Learning and Robotics.
-    Get in touch at anshulsoodnet@gmail.com if you have an exciting opportunity or want to collaborate on a project.`,
+    Though primarily interested in Backend systems, I love exploring tech and have done projects across Full-stack development, Deep Learning and Robotics.
+    Get in touch at anshulsoodnet@gmail.com if you want to collaborate on a project or have an exciting opportunity for me.`,
     education: [
       {
         name: 'B.E. Computer Science, Birla Institute of Technology and Science',
@@ -37,23 +37,35 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Member of Technical Staff - 2, Nutanix',
+        info: 'Feb 2024 - Present',
+        description: 'Building Distributed Services in Acropolis Hypervisor (AHV) Management team.\n'+
+        'Tech Stack: Go, Python, Bash',
+        link:''
+      },
+      {
         name: 'Software Engineer 3, Walmart Global Tech',
-        info: 'August 2023 - Present',
-        description: '‣ Helping sellers fulfil their Delivery Promise with SWW (Ship With Walmart), which provides domestic and international shipping services.\n'+
+        info: 'Aug 2023 - Jan 2024',
+        description: '‣ Built SWW 2.0 Billing system. SWW - Ship with Walmart, is a multi-tenant SaaS product for providing shipping services with 3rd party carriers.\n'+
+        '‣ Involved in end to end product development from requirements gathering, design (LLD) and coding.\n'+
+        '‣ Made the complete pipeline Highly Available through multi-region data replication, multi-region Crons and Kafka failover.\n'+
+        '‣ Built a solid Reconciliation System to tackle the challenges associated with a distributed system as well as ensure the accuracy of transactions processed through the Billing System.\n'+
         'Tech Stack: Java, SpringBoot, Kafka, Azure',
         link:''
       },
       {
         name: 'Software Engineer 2, Walmart Global Tech',
-        info: 'July 2021 - July 2023',
-        description: '‣ Enabled sellers to expand their business across geographies with Incremental Onboarding and Catalog Porting.\n'+
+        info: 'Jul 2021 - Jul 2023',
+        description: '‣ Developed a GraphQL BFF for an application to onboard sellers from US to Canada. Integrated with UI through API Gateway.\n'+
+        '‣ Wrote a Spark Job for generating reports to help sellers price their products profitably in the Mexico market.\n'+
+        '‣ Worked on the Catalog Porting feature to help sellers port their catalogs between international marketplaces. A catalog could involve millions of items in some cases and the feature was scalable in that way.\n'+
         'Tech Stack: Java, SpringBoot, Spark, GraphQL, Azure',
         link:''
       },
       {
         name: 'Intern, CDAC',
         info: 'Aug 2020 - Dec 2020',
-        description: '• Created a distributed pipeline for serving Deep Learning models to provide Number Plate Recognition at scale.\n'+
+        description: '‣ Created a distributed pipeline for serving Deep Learning models to provide Number Plate Recognition at scale.\n'+
         '‣ Followed microservices pattern to make each model independently scalable and handle multiple video streams in parallel.\n'+
         '‣ Solved the challenges of Ordered Processing, Stateful Processing and Transactions in a distributed application.\n'+
         '‣ Technologies: Python, Java, Kafka, gRPC, Redis, Docker, MySQL',
@@ -79,6 +91,12 @@ module.exports = {
     ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: 'Loghouse',
+        description:
+          '[In Progress] A simple service to store logs built with scalablity in mind by applying distributed systems concepts like Service Discovery, Coordination with Consensus and Load Balancing.',
+        link: 'https://github.com/AnshulSood11/Loghouse',
+      },
       {
         name: 'MyDreamsTravel',
         description:
