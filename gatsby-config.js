@@ -15,23 +15,24 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/anshulsood11/`,
     // Content of the About Me section
-    about: `I'm a Software engineer at Nutanix, building cool distributed services for Nutanix AHV (Hypervisor) Management. Previously, I worked at Walmart for 2.5 years in eCommerce and logistics domain. I graduated from BITS Goa in 2021 with a BE in Computer Science.
+    about: `I'm a Software engineer at Nutanix, working on cool distributed systems for VM management. Peviously, I worked at Walmart in the eCommerce and logistics domain. I graduated from BITS Pilani in 2021 with a BE in Computer Science and have about 3.5 years of full-time experience.
     
     My core skills are:
-    ‣ Building highly scalable microservices using Java, SpringBoot, Kafka, GraphQL and gRPC.
-    ‣ Writing Spark jobs for large scale data processing.
-    ‣ Full-stack Development with ReactJS, SpringBoot/Django with backend on Cloud(AWS) or Serverless(Firebase).
+    ‣ Building scalable web services using Java, Springboot, GraphQL.
+    ‣ Distributed systems.
+    ‣ Building data processing pipelines using Kafka, Spark.
+    ‣ Full-stack Development with ReactJS and Django with backend on Cloud(AWS) or Serverless(Firebase).
     ‣ Building Deep Learning applications and deploying Machine Learning models at scale.
     ‣ Building reliable and resilient services with Monitoring, Alerting and Disaster Recovery processes in place.
 
-    Though primarily interested in Backend systems, I love exploring tech and have done projects across Full-stack development, Deep Learning and Robotics.
+    I love exploring tech and have done projects across Full-stack development, Deep Learning and Robotics. Nowadays, Distributed systems facinate me the most.
     Get in touch at anshulsoodnet@gmail.com if you want to collaborate on a project or have an exciting opportunity for me.`,
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'Member of Technical Staff - 2, Nutanix',
         info: 'Feb 2024 - Present',
-        description: 'Building Distributed Services in Acropolis Hypervisor (AHV) Management team.\n'+
+        description: 'Enhancing features and performance of the AHV VM Control Plane.\n'+
         'Tech Stack: Go, Python, Bash',
         link:''
       },
@@ -48,9 +49,8 @@ module.exports = {
       {
         name: 'Software Engineer 2, Walmart Global Tech',
         info: 'Jul 2021 - Jul 2023',
-        description: '‣ Developed a GraphQL BFF for an application to onboard sellers from US to Canada. Integrated with UI through API Gateway.\n'+
-        '‣ Wrote a Spark Job for generating reports to help sellers price their products profitably in the Mexico market.\n'+
-        '‣ Worked on the Catalog Porting feature to help sellers port their catalogs between international marketplaces. A catalog could involve millions of items in some cases and the feature was scalable in that way.\n'+
+        description: '‣ Developed a GraphQL BFF for a seller onboarding application and integrated it with the API Gateway.\n'+
+        '‣ Built pipelines for various initiatives like: Catalog Porting between international markets, Generating Duty tax reports to help sellers price their products profitably, Shortlisting sellers to provide opportunities based on their performance metrics.\n'+
         'Tech Stack: Java, SpringBoot, Spark, GraphQL, Azure',
         link:''
       },
@@ -74,7 +74,7 @@ module.exports = {
     ],
     education: [
       {
-        name: 'B.E. Computer Science, Birla Institute of Technology and Science',
+        name: 'B.E. Computer Science, Birla Institute of Technology and Science - Pilani, Goa Campus',
         info: '2017 - 2021',
         description: 'Activities and Societies: Electronics and Robotics Club, Spree 2018 (Sports Fest) Organizing Committee',
         link:''
