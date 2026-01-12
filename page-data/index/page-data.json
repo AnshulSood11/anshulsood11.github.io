@@ -22,7 +22,7 @@
                         {
                             "name": "Member of Technical Staff - 2, Nutanix",
                             "info": "Feb 2024 - Oct 2025",
-                            "description": "Authored a library for using gRPC over Envoy L4 proxy, providing load balancing, retries, health checks, and connection pooling. Used by teams across Nutanix.\nContributed to VM Startup Policy feature for configuring VM boot order during HA failover and cluster restart. Modelled dependencies as a graph and applied graph algorithms for cycle detection, conflict resolution, partitioning into subgraphs and determining the final order.\nBuilt a protobuf parsing algorithm to implement PUT semantics while ensuring backward compatibility of APIs.\nTech Stack: Go, Python, Bash, gRPC",
+                            "description": "‣ Authored a library for using gRPC over Envoy L4 proxy, providing load balancing, retries, health checks, and connection pooling. Used by teams across Nutanix.\n‣ Contributed to VM Startup Policy feature for configuring VM boot order during HA failover and cluster restart. Modelled dependencies as a graph and applied graph algorithms for cycle detection, conflict resolution, partitioning into subgraphs and determining the final order.\n‣ Built a protobuf parsing algorithm to implement PUT semantics while ensuring backward compatibility of APIs.\nTech Stack: Go, Python, Bash, gRPC",
                             "link": ""
                         },
                         {
