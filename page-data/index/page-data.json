@@ -8,7 +8,7 @@
                     "name": "Anshul Sood",
                     "title": "Anshul Sood | Software Engineer",
                     "description": "Backend Systems and Web Services Expert",
-                    "about": "I'm a Software engineer currently working at Nutanix, building mission-critical distributed services for AHV VM control plane that run in resource-constrained environments. Previously worked at Walmart, simplifying international trade for sellers on the eCommerce marketplace. Graduated in 2021 with B.E. in Computer Science.\n    \n    Skilled in:\n    ‣ Building scalable distributed systems using Go, Java, gRPC and Kafka.\n    ‣ Developing backends for frontends (BFF) using Java (Spring Boot and GraphQL) or Python (Django).\n    ‣ Writing Spark jobs for large-scale distributed data processing. \n    ‣ Building reliable and resilient services with redundancy, monitoring, alerting, and disaster recovery processes in place.\n    ‣ Building Deep Learning applications and deploying Machine Learning models at scale.\n    ‣ Full-stack development using ReactJS with Spring Boot or Django backends, deployed on cloud (AWS) or serverless (Firebase).\n\n    I love exploring tech and have done projects across Full-stack development, Deep Learning and Robotics. Nowadays, Distributed systems facinate me the most.\n    Get in touch at anshulsoodnet@gmail.com if you want to collaborate on a project or have an exciting opportunity for me.",
+                    "about": "I'm a Software engineer currently working at Nutanix, building mission-critical distributed services for AHV control plane. Previously worked at Walmart, simplifying international trade for sellers on the eCommerce marketplace. Graduated in 2021 with B.E. in Computer Science.\n    \n    Skilled in:\n    ‣ Building scalable distributed systems using Go, Java, gRPC and Kafka.\n    ‣ Developing backends for frontends (BFF) using Java (Spring Boot and GraphQL) or Python (Django).\n    ‣ Writing Spark jobs for large-scale distributed data processing. \n    ‣ Building reliable and resilient services with redundancy, monitoring, alerting, and disaster recovery processes in place.\n    ‣ Building Deep Learning applications and deploying Machine Learning models at scale.\n    ‣ Full-stack development using ReactJS with Spring Boot or Django backends, deployed on cloud (AWS) or serverless (Firebase).\n\n    Get in touch at anshulsoodnet@gmail.com if you want to collaborate on a project or have an exciting opportunity for me.",
                     "author": null,
                     "github": "https://github.com/anshulsood11",
                     "linkedin": "https://www.linkedin.com/in/anshulsood11/",
@@ -16,31 +16,31 @@
                         {
                             "name": "Member of Technical Staff - 3, Nutanix",
                             "info": "Nov 2025 - Present",
-                            "description": "Enhancing features and performance of the AHV VM Control Plane.\nTech Stack: Go, Python, Bash",
+                            "description": "Enhancing performance and building features for VM management.\nTech Stack: Go, Python, Bash, gRPC",
                             "link": ""
                         },
                         {
                             "name": "Member of Technical Staff - 2, Nutanix",
                             "info": "Feb 2024 - Oct 2025",
-                            "description": "Authored a library for using gRPC over Envoy L4 proxy, providing load balancing, retries, health checks, and connection pooling. Used by teams across Nutanix.\nContributed to VM Startup Policy feature for configuring VM boot order during HA failover and cluster restart. Modelled dependencies as a graph and applied graph algorithms for cycle detection, conflict resolution, partitioning into subgraphs and determining the final order.\nBuilt a protobuf parsing algorithm to implement PUT semantics while ensuring backward compatibility of APIs.\nTech Stack: Go, Python, Bash",
+                            "description": "Authored a library for using gRPC over Envoy L4 proxy, providing load balancing, retries, health checks, and connection pooling. Used by teams across Nutanix.\nContributed to VM Startup Policy feature for configuring VM boot order during HA failover and cluster restart. Modelled dependencies as a graph and applied graph algorithms for cycle detection, conflict resolution, partitioning into subgraphs and determining the final order.\nBuilt a protobuf parsing algorithm to implement PUT semantics while ensuring backward compatibility of APIs.\nTech Stack: Go, Python, Bash, gRPC",
                             "link": ""
                         },
                         {
                             "name": "Software Engineer 3, Walmart Global Tech",
                             "info": "Aug 2023 - Jan 2024",
-                            "description": "‣ Built SWW 2.0 Billing system. SWW - Ship with Walmart, is a multi-tenant SaaS product for providing shipping services with 3rd party carriers.\n‣ Involved in end to end product development from requirements gathering, design (LLD) and coding.\n‣ Made the complete pipeline Highly Available through multi-region data replication, multi-region Crons and Kafka failover.\n‣ Built a solid Reconciliation System to tackle the challenges associated with a distributed system as well as ensure the accuracy of transactions processed through the Billing System.\nTech Stack: Java, SpringBoot, Kafka, Azure",
+                            "description": "‣ Built SWW 2.0 Billing system. SWW - Ship with Walmart, is a multi-tenant SaaS product for providing shipping services with 3rd party carriers.\n‣ Involved in end to end product development from requirements gathering, design (LLD), coding, deployment, automated testing and build pipeline integration, setting up monitoring and alerting\n‣ Made the complete pipeline Highly Available through multi-region data replication, multi-region Crons and Kafka failover.\n‣ Built a Reconciliation System to detect and correct transactional inaccuracies in the system.\n‣ Implemented Kafka failover for disaster recovery during a region-level outage. This along with multi-region deployments and multi-region replication ensured high availability of the system. \nTech Stack: Java, SpringBoot, Kafka, Azure, SQL",
                             "link": ""
                         },
                         {
                             "name": "Software Engineer 2, Walmart Global Tech",
                             "info": "Jul 2021 - Jul 2023",
-                            "description": "‣ Developed a GraphQL BFF for a seller onboarding application and integrated it with the API Gateway.\n‣ Built pipelines for various initiatives like: Catalog Porting between international markets, Generating Duty tax reports to help sellers price their products profitably, Shortlisting sellers to provide opportunities based on their performance metrics.\nTech Stack: Java, SpringBoot, Spark, GraphQL, Azure",
+                            "description": "‣ Developed a GraphQL BFF for a seller onboarding application and integrated it with the API Gateway.\n‣ Built pipelines for various initiatives like: Catalog Porting between international markets, Generating Duty tax reports to help sellers price their products profitably, Shortlisting sellers to provide opportunities based on their performance metrics.\nTech Stack: Java, SpringBoot, Spark, GraphQL",
                             "link": ""
                         },
                         {
                             "name": "Intern, CDAC",
                             "info": "Aug 2020 - Dec 2020",
-                            "description": "‣ Created a distributed pipeline for serving Deep Learning models to provide Number Plate Recognition at scale.\n‣ Followed microservices pattern to make each model independently scalable and handle multiple video streams in parallel.\n‣ Solved the challenges of Ordered Processing, Stateful Processing and Transactions in a distributed application.\n‣ Technologies: Python, Java, Kafka, gRPC, Redis, Docker, MySQL",
+                            "description": "‣ Created a distributed pipeline for serving Deep Learning models to provide Number Plate Recognition at scale.\n‣ Followed microservices pattern to make each model independently scalable and process multiple video streams in parallel, applying various models at successive stages\n‣ Tackled the challenges involved for Ordered, Stateful Processing and Distributed Transactions.\n‣ Technologies: Python, Java, Kafka, gRPC, Redis, Docker, MySQL",
                             "link": ""
                         },
                         {
